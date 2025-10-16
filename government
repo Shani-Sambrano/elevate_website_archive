@@ -79,10 +79,13 @@
   <!-- Hero Image -->
   <section class="hero-image">
     <img
-      src="https://elevate-aisolutions.com/wp-content/uploads/2025/07/placeholder-government.jpg"
-      alt="Smart City Infrastructure Overview"
-      width="1600" height="900"
-      decoding="async" loading="eager"
+      src="https://elevate-aisolutions.com/wp-content/uploads/2025/07/land_registry_pic.jpg"
+    alt="Smart City and Land Registry Infrastructure Overview"
+    width="1920"
+    height="1280"
+    decoding="async"
+    loading="eager"
+    style="border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,.2);margin:20px auto;display:block;"
     />
   </section>
 
@@ -111,7 +114,9 @@
       <li>🔒 Premium: Cybersecurity, Ethics & Data Protection</li>
       <li>🔒 Premium: Scaling & Sustainability for Multi-City Deployments</li>
     </ul>
-    <a href="/training-portal" class="btn-primary">Explore Training Portal</a>
+    <a href="/create-account" class="btn-primary" aria-label="Join the Training Portal waitlist">
+       Explore Training Portal
+    </a>
   </section>
 
   <!-- Call to Action -->
