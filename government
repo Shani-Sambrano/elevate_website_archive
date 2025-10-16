@@ -1,24 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Government & Smart Cities | Elevate AI Solutions</title>
-  <meta name="description" content="Turnkey public safety, land‐registry, and smart‑city blueprints to help governments modernize infrastructure, build local capacity, and protect communities at scale." />
-  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Turnkey public safety, land-registry, and smart-city blueprints to help governments modernize infrastructure, build local capacity, and protect communities at scale." />
+  <link rel="stylesheet" href="styles.css" />
   <style>
-    body { font-family: 'Segoe UI', sans-serif; margin:0; padding:0; background:#f5f5f5; color:#333; }
-    header.hero { background: linear-gradient(to right, #1e3c72, #2a5298); color:#fff; padding:60px 20px; text-align:center; }
-    .hero-content h1 { font-size:2.5rem; margin:0; }
-    .hero-content p  { font-size:1.2rem; margin-top:10px; }
-    .hero-image img, .info-video video { width:100%; height:auto; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.2); margin:20px auto; display:block; }
-    section { padding:50px 20px; max-width:1000px; margin:auto; }
-    section h2 { text-align:center; margin-bottom:20px; color:#0077cc; }
-    .services ul, .blueprints ul { list-style:none; padding-left:0; font-size:1.1rem; }
-    .services li, .blueprints li { padding:10px 0; border-bottom:1px solid #ddd; }
-    .btn-primary { display:inline-block; padding:12px 24px; background-color:#0077cc; color:#fff; font-weight:bold; text-decoration:none; border-radius:8px; margin-top:15px; }
-    .alt-option { margin-top:15px; font-size:0.95rem; text-align:center; }
-    footer { background:#000e2b; color:#fff; text-align:center; padding:20px; font-size:0.85rem; margin-top:50px; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header.hero {
+      background: linear-gradient(to right, #1e3c72, #2a5298);
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .hero-content h1 { font-size: 2.5rem; margin: 0; }
+    .hero-content p  { font-size: 1.2rem; margin-top: 10px; }
+    section { padding: 50px 20px; max-width: 1000px; margin: auto; }
+    section h2 { text-align: center; margin-bottom: 20px; color: #0077cc; }
+    .hero-image img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      margin: 20px auto;
+      display: block;
+    }
+    .services ul, .blueprints ul {
+      list-style: none;
+      padding-left: 0;
+      font-size: 1.1rem;
+    }
+    .services li, .blueprints li {
+      padding: 10px 0;
+      border-bottom: 1px solid #ddd;
+    }
+    .btn-primary {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #0077cc;
+      color: #fff;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 8px;
+      margin-top: 15px;
+    }
+    .alt-option {
+      margin-top: 15px;
+      font-size: 0.95rem;
+      text-align: center;
+    }
+    footer {
+      background: #000e2b;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.85rem;
+      margin-top: 50px;
+    }
   </style>
 </head>
 <body>
@@ -27,49 +72,44 @@
   <header class="hero">
     <div class="hero-content">
       <h1>Smart Infrastructure for Sovereign Governance</h1>
-      <p>We build local capacity—no foreign dependency. Elevate AI empowers governments to deploy AI‑powered public safety, land registry, and smart‑city systems that you own and operate.</p>
+      <p>We build local capacity—no foreign dependency. Elevate AI empowers governments to deploy AI-powered public safety, land-registry, and smart-city systems that you own and operate.</p>
     </div>
   </header>
 
   <!-- Hero Image -->
   <section class="hero-image">
-    <img src="https://elevate-aisolutions.com/wp-content/uploads/2025/07/placeholder-government.jpg" 
-         alt="Smart City Infrastructure Overview">
-  </section>
-
-  <!-- Intro Video -->
-  <section class="info-video">
-    <h2>Watch Our Vision for Smart Governance</h2>
-    <video controls poster="https://elevate-aisolutions.com/wp-content/uploads/2025/07/placeholder-government.jpg">
-      <source src="https://elevate-aisolutions.com/videos/government_intro.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
+    <img
+      src="https://elevate-aisolutions.com/wp-content/uploads/2025/07/placeholder-government.jpg"
+      alt="Smart City Infrastructure Overview"
+      width="1600" height="900"
+      decoding="async" loading="eager"
+    />
   </section>
 
   <!-- Services -->
   <section class="services">
     <h2>Our Government & Smart City Services</h2>
     <ul>
-      <li>✅ <strong>Smart Public Safety:</strong> Drones, LPR, gunshot detection, real‑time command centers, alert systems</li>
+      <li>✅ <strong>Smart Public Safety:</strong> Drones, LPR, gunshot detection, real-time command centers, alert systems</li>
       <li>✅ <strong>Land Registry Modernization:</strong> GIS parcel mapping, deed digitization, permit & zoning workflows</li>
-      <li>✅ <strong>Police Modernization:</strong> AI‑powered analytics, response integration, ethical policy & training</li>
+      <li>✅ <strong>Police Modernization:</strong> AI-powered analytics, response integration, ethical policy & training</li>
       <li>✅ <strong>Workflow Orchestration:</strong> Automate permit approvals, incident triage, citizen engagement portals</li>
-      <li>✅ <strong>School District Automation:</strong> Digital IEP & behavior‑analytics, special‑ed compliance dashboards</li>
-      <li>✅ <strong>Local Capacity Building:</strong> On‑site training, policy frameworks, 24/7 support & SLA options</li>
+      <li>✅ <strong>School District Automation:</strong> Digital IEP & behavior analytics, special-ed compliance dashboards</li>
+      <li>✅ <strong>Local Capacity Building:</strong> On-site training, policy frameworks, 24/7 support & SLA options</li>
     </ul>
   </section>
 
   <!-- Blueprint Training -->
   <section class="blueprints">
     <h2>Smart Public Safety Blueprint Training Modules</h2>
-    <p>Start with free foundational modules—unlock advanced courses as you grow.</p>
+    <p>Start with free foundational modules — unlock advanced courses as you grow.</p>
     <ul>
       <li>✅ Free: Introduction to Public Safety Modernization</li>
       <li>✅ Free: City Readiness & Legal Frameworks</li>
       <li>🔒 Premium: Drone & LPR System Design</li>
       <li>🔒 Premium: Command Center Operations & Analytics</li>
       <li>🔒 Premium: Cybersecurity, Ethics & Data Protection</li>
-      <li>🔒 Premium: Scaling & Sustainability for Multi‑City Deployments</li>
+      <li>🔒 Premium: Scaling & Sustainability for Multi-City Deployments</li>
     </ul>
     <a href="/training-portal" class="btn-primary">Explore Training Portal</a>
   </section>
@@ -79,7 +119,9 @@
     <h2>Empower Your City Today</h2>
     <p>Create a free account to explore demos, request briefings, and unlock sample modules.</p>
     <a href="/create-account" class="btn-primary">Create a Free Account</a>
-    <p class="alt-option">Already have an account? <a href="https://calendly.com/S-Sambrano" target="_blank">Schedule a Government Briefing</a></p>
+    <p class="alt-option">
+      Already have an account? <a href="https://calendly.com/S-Sambrano" target="_blank" rel="noopener">Schedule a Government Briefing</a>
+    </p>
   </section>
 
   <!-- Footer -->
