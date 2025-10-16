@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Enterprise AI &amp; Workflow Automation | Elevate AI Solutions</title>
-  <meta name="description" content="Orchestrate data pipelines, automate BI &amp; CRM workflows, and refresh dashboards seamlessly with Elevate AI’s enterprise-grade platform." />
+  <title>Enterprise AI & Workflow Automation | Elevate AI Solutions</title>
+  <meta name="description" content="Orchestrate data pipelines, automate BI & CRM workflows, and refresh dashboards seamlessly with Elevate AI’s enterprise-grade platform." />
   <link rel="stylesheet" href="styles.css" />
   <style>
     body {
@@ -21,52 +21,24 @@
       padding: 60px 20px;
       text-align: center;
     }
-    .hero-content h1 {
-      font-size: 2.5rem;
-      margin: 0;
-    }
-    .hero-content p {
-      font-size: 1.2rem;
-      margin-top: 10px;
-    }
-    section {
-      padding: 50px 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
-    section h2 {
-      text-align: center;
-      margin-bottom: 20px;
-      color: #0077cc;
-    }
+    .hero-content h1 { font-size: 2.5rem; margin: 0; }
+    .hero-content p  { font-size: 1.2rem; margin-top: 10px; }
+    section { padding: 50px 20px; max-width: 1000px; margin: auto; }
+    section h2 { text-align: center; margin-bottom: 20px; color: #0077cc; }
+
     /* Hero image */
     .hero-image img {
       width: 100%;
       height: auto;
       border-radius: 12px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      display: block;
     }
-    /* Video section */
-    .info-video {
-      text-align: center;
-    }
-    .info-video video {
-      width: 100%;
-      max-width: 800px;
-      height: auto;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-    }
+
     /* Services list */
-    .services ul {
-      list-style: none;
-      padding-left: 0;
-      font-size: 1.1rem;
-    }
-    .services li {
-      padding: 10px 0;
-      border-bottom: 1px solid #ddd;
-    }
+    .services ul { list-style: none; padding-left: 0; font-size: 1.1rem; }
+    .services li { padding: 10px 0; border-bottom: 1px solid #ddd; }
+
     /* CTA */
     .cta {
       background: #ffffff;
@@ -85,10 +57,8 @@
       border-radius: 8px;
       margin-top: 15px;
     }
-    .alt-option {
-      margin-top: 15px;
-      font-size: 0.95rem;
-    }
+    .alt-option { margin-top: 15px; font-size: 0.95rem; }
+
     /* Footer */
     footer {
       background: #000e2b;
@@ -110,24 +80,16 @@
     </div>
   </header>
 
-  <!-- Hero Image Placeholder -->
+  <!-- Hero Image -->
   <section class="hero-image">
     <img 
-      src="https://elevate-aisolutions.com/wp-content/uploads/2025/07/enterprise_placeholder.jpg" 
-      alt="Enterprise AI Automation" 
+      src="https://elevate-aisolutions.com/wp-content/uploads/2025/07/enterprise_placeholder.jpg"
+      alt="Enterprise AI Automation Overview"
+      width="1600"
+      height="900"
+      decoding="async"
+      loading="eager"
     />
-  </section>
-
-  <!-- Demo Video Placeholder -->
-  <section class="info-video">
-    <h2>See Enterprise Orchestration in Action</h2>
-    <video 
-      controls 
-      poster="https://elevate-aisolutions.com/wp-content/uploads/2025/07/enterprise_placeholder.jpg"
-    >
-      <source src="https://elevate-aisolutions.com/wp-content/uploads/2025/07/enterprise_demo.mp4" type="video/mp4" />
-      Your browser does not support the video tag.
-    </video>
   </section>
 
   <!-- Services -->
@@ -135,14 +97,14 @@
     <h2>What We Offer</h2>
     <ul>
       <li>✅ AI Sales &amp; CRM Dashboards</li>
-      <li>✅ Lead Scoring &amp; Automated Follow‑Up</li>
+      <li>✅ Lead Scoring &amp; Automated Follow-Up</li>
       <li>✅ Custom KPI &amp; Executive Reporting</li>
       <li>✅ Scalable Cloud Data Infrastructure &amp; ETL Orchestration</li>
-      <li>✅ Event‑Driven Pipeline Scheduling (DagRuns &amp; REST triggers)</li>
+      <li>✅ Event-Driven Pipeline Scheduling (DagRuns &amp; REST triggers)</li>
       <li>✅ Automated Dashboard Refresh for Tableau &amp; Power BI</li>
       <li>✅ Workflow Integration via Slack, Email, Zapier, or Teams</li>
-      <li>✅ Error‑Handling, Retry Logic &amp; SLA Monitoring</li>
-      <li>✅ Real‑Time Alerts &amp; Notifications</li>
+      <li>✅ Error-Handling, Retry Logic &amp; SLA Monitoring</li>
+      <li>✅ Real-Time Alerts &amp; Notifications</li>
       <li>✅ Custom Database &amp; Data Lake Design</li>
     </ul>
   </section>
@@ -153,7 +115,7 @@
     <p>Choose a plan or talk to our team for a tailored enterprise transformation strategy.</p>
     <a href="https://square.link/u/CjPgNIrL" class="btn-primary">Subscribe to Growth Plan</a>
     <p class="alt-option">
-      Or <a href="https://calendly.com/S-Sambrano" target="_blank">book a custom briefing</a>
+      Or <a href="https://calendly.com/S-Sambrano" target="_blank" rel="noopener">book a custom briefing</a>
     </p>
   </section>
 
