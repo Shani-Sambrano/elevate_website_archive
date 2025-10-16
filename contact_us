@@ -1,0 +1,35 @@
+<h1>Any Questions?</h1>
+<h2>Let’s Start the Conversation</h2>
+<p>Have a request or project idea? Submit the form below and someone from our team will reach out within 24–48 business hours.</p>
+
+<form action="https://formspree.io/f/xanjnzvd" method="POST">
+  <!-- Required Name -->
+  <label for="name">Your Name*</label><br>
+  <input type="text" name="name" required><br><br>
+
+  <!-- Required Email -->
+  <label for="email">Your Email*</label><br>
+  <input type="email" name="email" required><br><br>
+
+  <!-- Optional Phone -->
+  <label for="phone">Your Phone Number</label><br>
+  <input type="tel" name="phone"><br><br>
+
+  <!-- Required Message -->
+  <label for="message">Message*</label><br>
+  <textarea name="message" rows="5" required></textarea><br><br>
+
+  <!-- Optional Newsletter Opt-In -->
+  <label>
+    <input type="checkbox" name="subscribe">
+    Yes, I’d like to receive occasional updates and offers from Elevate AI Solutions.
+  </label><br><br>
+
+  <!-- CAPTCHA (Spam Protection) -->
+  <input type="text" name="_gotcha" style="display:none" aria-hidden="true">
+
+  <!-- Thank You Redirect (optional) -->
+  <input type="hidden" name="_redirect" value="https://elevate-aisolutions.com/thank-you">
+
+  <button type="submit">Send Message</button>
+</form>

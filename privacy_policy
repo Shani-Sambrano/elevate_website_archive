@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy | Elevate AI Solutions</title>
+  <meta name="description" content="Learn how Elevate AI Solutions protects your personal data. We are committed to secure, transparent, and responsible data practices." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Privacy Policy</h1>
+      <p>Last updated: June 4, 2025</p>
+    </div>
+  </header>
+
+  <section>
+    <h2>Who We Are</h2>
+    <p>Elevate AI Solutions is a U.S.-based provider of cloud-native, AI-powered solutions for healthcare, government, and business organizations. Our website address is: <a href="https://elevate-aisolutions.com">https://elevate-aisolutions.com</a>.</p>
+  </section>
+
+  <section>
+    <h2>Information We Collect</h2>
+    <p>We may collect personal information you voluntarily provide when:</p>
+    <ul>
+      <li>Filling out forms</li>
+      <li>Subscribing to a service</li>
+      <li>Requesting a consultation</li>
+      <li>Uploading documents or media</li>
+    </ul>
+    <p>This information may include your name, organization, email address, phone number, IP address, and other relevant details for service delivery.</p>
+  </section>
+
+  <section>
+    <h2>Cookies and Analytics</h2>
+    <p>We use cookies to:</p>
+    <ul>
+      <li>Remember your preferences</li>
+      <li>Enable secure login functionality</li>
+      <li>Analyze site usage with privacy-respecting tools (e.g., anonymized Google Analytics)</li>
+    </ul>
+    <p>You can opt out of cookies by adjusting your browser settings. Disabling cookies may affect website functionality.</p>
+  </section>
+
+  <section>
+    <h2>Embedded Content</h2>
+    <p>Some pages may feature embedded content from third-party websites (e.g., YouTube, Calendly). These platforms may collect usage data or set cookies independently. We recommend reviewing their privacy policies.</p>
+  </section>
+
+  <section>
+    <h2>Media Uploads</h2>
+    <p>If you upload files, please ensure no sensitive or location metadata (EXIF) is embedded, especially in regulated industries.</p>
+  </section>
+
+  <section>
+    <h2>Data Sharing</h2>
+    <p>We do not sell your data. We may share information with trusted vendors or contractors only when necessary to:</p>
+    <ul>
+      <li>Deliver requested services</li>
+      <li>Maintain legal compliance</li>
+      <li>Provide secure technical support</li>
+    </ul>
+    <p>All partners are required to meet confidentiality and security standards.</p>
+  </section>
+
+  <section>
+    <h2>Data Retention</h2>
+    <p>
+      - Form submissions and inquiry data may be retained for legal, audit, or analytics purposes.<br />
+      - Account data (if any) is retained until you request deletion.<br />
+      - Comments and related metadata (if commenting is enabled) are retained to support moderation and continuity.
+    </p>
+  </section>
+
+  <section>
+    <h2>Your Rights</h2>
+    <p>You may request to:</p>
+    <ul>
+      <li>Access your personal data</li>
+      <li>Correct or delete your information</li>
+      <li>Withdraw consent (where applicable)</li>
+    </ul>
+    <p>Email your request to <a href="mailto:info@elevate-aisolutions.com">info@elevate-aisolutions.com</a>.</p>
+  </section>
+
+  <section>
+    <h2>Security Measures</h2>
+    <p>We implement safeguards to protect your data, including:</p>
+    <ul>
+      <li>SSL encryption</li>
+      <li>Role-based access control</li>
+      <li>Audit logs and anomaly monitoring</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Where Your Data Is Sent</h2>
+    <p>Visitor interactions may be scanned by anti-spam and security monitoring systems to ensure site integrity and protect against malicious traffic.</p>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+    <p>
+      📧 Email: <a href="mailto:info@elevate-aisolutions.com">info@elevate-aisolutions.com</a><br />
+      📞 Phone: (800) 292-4716 ext. 88<br />
+      🏢 Elevate AI Solutions, Marinia Group, Inc.
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Elevate AI Solutions. All rights reserved.</p>
+  </footer>
+</body>
+</html>

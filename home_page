@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elevate AI Solutions</title>
+
+  <!-- SEO & Open Graph Metadata -->
+  <meta name="description" content="AI, ML, Workflow Orchestration, & Data Engineering for Healthcare, Government, & Business. HIPAA-compliant analytics, land digitization, public safety AI, and cloud automation by Elevate AI Solutions." />
+  <meta name="keywords" content="AI, Machine Learning, Workflow Orchestration, ML, Data Engineering, Cloud Architecture, Healthcare AI, Public Safety AI, Land Registry, Government Tech, Automation, GIS, AWS AI, Compliance, EHR, CRM, Elevate AI Solutions" />
+  <meta name="author" content="Elevate AI Solutions" />
+  <meta property="og:title" content="Elevate AI Solutions" />
+  <meta property="og:description" content="Liberating African cities from long-term foreign dependency through smart public safety blueprints, AI infrastructure, and locally controlled digital systems." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://elevate-aisolutions.com" />
+  <meta property="og:image" content="https://elevate-aisolutions.com/logo.png" />
+
+  <!-- Styles -->
+  <style>
+    /* --- Slideshow --- */
+    .slideshow-banner {
+      position: relative;
+      height: 100vh;
+      overflow: hidden;
+    }
+    .slideshow-container {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+    .slide {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: none;
+    }
+    .slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    /* Overlay & Content */
+    .slideshow-overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 1;
+    }
+    .slideshow-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      color: #fff;
+      text-align: center;
+      padding: 0 1rem;
+    }
+    .slideshow-content h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    .slideshow-content p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    .scroll-down {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 2;
+      color: #fff;
+      font-size: 1.5rem;
+      animation: bounce 2s infinite;
+    }
+    @keyframes bounce {
+      0%, 100% { transform: translate(-50%, 0); }
+      50% { transform: translate(-50%, -10px); }
+    }
+    @media (max-width: 768px) {
+      .slideshow-content h1 { font-size: 1.5rem; }
+      .slideshow-content p  { font-size: 1rem; }
+    }
+
+    /* --- Rest of page --- */
+    section { padding: 60px 20px; }
+    h2 { text-align: center; font-size: 2rem; margin-bottom: 30px; }
+    .service-cards, .pricing-tiers {
+      display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;
+    }
+    .card, .tier {
+      flex: 1 1 300px;
+      background: #f7f7f7;
+      padding: 20px;
+      border-radius: 12px;
+    }
+    .highlight { background: #e0f7fa; }
+    .btn-primary, .btn-outline {
+      display: inline-block;
+      padding: 12px 20px;
+      margin-top: 10px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .btn-primary {
+      background-color: #0077cc;
+      color: #fff;
+    }
+    .btn-outline {
+      background: #fff;
+      color: #0077cc;
+      border: 2px solid #0077cc;
+    }
+    .cta { background-color: #f0f0f0; text-align: center; }
+    footer {
+      background: #000e2b;
+      color: #fff;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Slideshow Banner -->
+  <section class="slideshow-banner">
+    <div class="slideshow-container">
+      <div class="slide"><img src="https://elevate-aisolutions.com/wp-content/uploads/2025/07/chatbot_resized_1920x1080.jpg" alt="AI Chatbot Appointment Booking Demo"></div>
+      <div class="slide"><img src="https://elevate-aisolutions.com/wp-content/uploads/2025/07/police_drone.jpg" alt="Public Safety Surveillance Drone"></div>
+      <div class="slide"><img src="https://elevate-aisolutions.com/wp-content/uploads/2025/07/healthcareai.png" alt="Healthcare AI Dashboard"></div>
+      <div class="slide"><img src="https://elevate-aisolutions.com/wp-content/uploads/2025/07/pink_brain2_resized_1920x1080.jpg" alt="Healthcare Brain Analytics Dashboard"></div>
+      <div class="slide"><img src="https://elevate-aisolutions.com/wp-content/uploads/2025/07/dag_example2_tree_resized_1920x1080.png" alt="Airflow DAG Workflow Automation"></div>
+      <div class="slide"><img src="https://elevate-aisolutions.com/wp-content/uploads/2025/07/land_registry_pic.jpg" alt="Land Registry GIS Map"></div>
+      <div class="slide"><img src="https://elevate-aisolutions.com/wp-content/uploads/2025/07/pinkheart.webp" alt="Heart Health Monitoring"></div>
+      <div class="slideshow-overlay"></div>
+      <div class="slideshow-content">
+        <h1>AI, ML, Workflow Orchestration, & Data Engineering for Healthcare, Business, & Government</h1>
+        <p>Smart solutions. Real‑world impact. Built for transformation.</p>
+      </div>
+      <div class="scroll-down">⬇ Scroll Down</div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services">
+    <h2>What We Do</h2>
+    <div class="service-cards">
+      <div class="card">
+        <h3>AI Advisory</h3>
+        <p>Modernize with AI/ML strategies tailored for healthcare systems, data-driven enterprises, and government agencies.</p>
+      </div>
+      <div class="card">
+        <h3>Cloud ML Engineering</h3>
+        <p>Deploy scalable ML models with AWS, Azure, or Google Cloud using zero-trust security and intelligent automation workflows.</p>
+      </div>
+      <div class="card">
+        <h3>Data Engineering</h3>
+        <p>Cloud‑native pipelines, machine‑learning‑ready infrastructure, <strong>and workflow orchestration</strong> with integrated GIS for land and safety systems.</p>
+      </div>
+      <div class="card">
+        <h3>Government Infrastructure</h3>
+        <p><strong>Smart Public Safety System:</strong> Turnkey AI‑powered infrastructure for crime prevention, surveillance, and response.</p>
+        <p><strong>Smart Land Registry System:</strong> Digitization solution for parcel maps, deeds, zoning data, and governance.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="pricing" id="pricing">
+    <h2>AI &amp; Workflow Orchestration Solutions</h2>
+    <div class="pricing-tiers">
+      <div class="tier">
+        <h3>Healthcare Starter</h3>
+        <ul>
+          <li>✅ Automate follow‑up & medication adherence alerts</li>
+          <li>✅ HIPAA‑compliant patient tracking</li>
+          <li>✅ No full‑time care coordinator needed</li>
+          <li>✅ Workflow orchestration & automation</li>
+        </ul>
+        <a href="https://elevate-aisolutions.com/healthcare-industry/" class="btn-primary">View AI for Physicians</a>
+      </div>
+      <div class="tier highlight">
+        <h3>Business Growth</h3>
+        <ul>
+          <li>✅ Unified AI dashboards & predictive insights</li>
+          <li>✅ EHR & CRM integration without dev overhead</li>
+          <li>✅ Smart alerts & compliance assurances</li>
+          <li>✅ Workflow orchestration & automation</li>
+        </ul>
+        <a href="https://elevate-aisolutions.com/enterprise/" class="btn-primary">View AI for Business</a>
+      </div>
+      <div class="tier">
+        <h3>Government & Enterprise</h3>
+        <ul>
+          <li>✅ Contract‑based multi‑city deployments</li>
+          <li>✅ Elevate Edge Public Safety & Land Registry</li>
+          <li>✅ Optional blueprint license & 24/7 support</li>
+          <li>✅ Workflow orchestration & automation</li>
+        </ul>
+        <a href="https://elevate-aisolutions.com/land-governance-solutions/" class="btn-primary">View AI for Government</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta" id="contact">
+    <h2>Ready to Elevate?</h2>
+    <p>Whether you’re a clinic, ministry, or enterprise—we’ll help you build AI‑powered systems that scale.</p>
+    <a href="/create-account" class="btn-primary">Create a Free Account</a>
+    <p class="alt-option">Already onboarded? <a href="https://calendly.com/S-Sambrano" target="_blank">Schedule a Strategy Call</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Elevate AI Solutions. All rights reserved.</p>
+    <p>“A Marinia Group Company – Building Smart Cities.”</p>
+  </footer>
+
+  <!-- Slideshow Script -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      let slideIndex = 0;
+      const slides = document.getElementsByClassName("slide");
+      function showSlides() {
+        for (let slide of slides) slide.style.display = "none";
+        slideIndex = (slideIndex + 1) % slides.length;
+        slides[slideIndex].style.display = "block";
+        setTimeout(showSlides, 4000);
+      }
+      if (slides.length) showSlides();
+    });
+  </script>
+
+</body>
+</html>

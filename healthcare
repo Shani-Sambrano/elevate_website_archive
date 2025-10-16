@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Healthcare AI &amp; Workflow Automation | Elevate AI Solutions</title>
+  <meta name="description" content="Automate patient intake, clinical workflows, and compliance—boost care delivery with Elevate AI’s HIPAA-ready orchestration platform." />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header.hero {
+      background: linear-gradient(to right, #1e3c72, #2a5298);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .hero-content h1 {
+      font-size: 2.5rem;
+    }
+    .hero-content p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #0077cc;
+    }
+    .services ul {
+      list-style: none;
+      padding-left: 0;
+      font-size: 1.1rem;
+    }
+    .services li {
+      padding: 10px 0;
+      border-bottom: 1px solid #ddd;
+    }
+    .info-video iframe,
+    .info-video video {
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    .cta {
+      background: #ffffff;
+      text-align: center;
+      border-radius: 12px;
+      padding: 40px 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .btn-primary {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #0077cc;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 8px;
+      margin-top: 15px;
+    }
+    .alt-option {
+      margin-top: 15px;
+      font-size: 0.95rem;
+    }
+    footer {
+      background: #000e2b;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.85rem;
+      margin-top: 50px;
+    }
+    .btn-primary {
+  display: inline-block;
+  padding: 14px 28px;
+  background-color: #0077cc;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  text-align: center;
+}
+.btn-primary:hover {
+  background-color: #005fa3;
+  transform: translateY(-2px);
+}
+.alt-option a {
+  color: #28a745;
+  text-decoration: none;
+  font-weight: 500;
+}
+.alt-option a:hover {
+  text-decoration: underline;
+}
+
+  </style>
+</head>
+
+<body>
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Healthcare AI &amp; Workflow Automation</h1>
+      <p>Automate patient intake, clinical workflows, and compliance—so your team can focus on care, not coordination.</p>
+    </div>
+  </header>
+
+  <!-- Hero Banner Image -->
+  <section class="hero-image">
+    <img
+      src="https://elevate-aisolutions.com/wp-content/uploads/2025/07/pinkheart.webp"
+      alt="AI-Driven Healthcare Compliance"
+      style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); margin-top: 20px;"
+    />
+  </section>
+
+  <!-- What We Offer -->
+  <section class="services">
+    <h2>What We Offer</h2>
+    <ul>
+      <li>✅ Digital Patient Intake on Any Tablet (iPad or Android)</li>
+      <li>✅ HIPAA‑Compliant Online Forms &amp; Kiosk Mode Setup</li>
+      <li>✅ Custom Patient Database Design</li>
+      <li>✅ Patient Follow‑Up Chatbots &amp; SMS Reminders</li>
+      <li>✅ Medication Adherence Bots</li>
+      <li>✅ HIPAA‑Compliant Cloud Hosting &amp; Storage</li>
+      <li>✅ AI Dashboards for Care Quality &amp; Compliance Metrics</li>
+      <li>✅ Seamless EHR/EMR Integration</li>
+      <li>✅ AI Chatbots for Scheduling, FAQs &amp; Triage</li>
+      <li>✅ Predictive Analytics for No‑Shows &amp; Readmission Risk</li>
+      <li>✅ Optional: AI Tools for Drug Discovery or Clinical Research</li>
+      <li>✅ **Automated care‑coordination workflows** (scheduling, referrals, lab triage)</li>
+      <li>✅ **Streamlined claims &amp; billing pipelines** with error‑proof data handoffs</li>
+      <li>✅ **EHR‑to‑analytics orchestration** for real‑time patient insights</li>
+    </ul>
+  </section>
+
+  <!-- Informational Explainer Video -->
+  <section class="info-video">
+    <h2>Watch How It Works</h2>
+    <p>This short video shows how Elevate AI orchestrates patient intake, follow‑up reminders, and billing automation—all in one platform.</p>
+    <div style="max-width: 800px; margin: 0 auto;">
+      <video
+        width="100%"
+        height="auto"
+        controls
+        poster="https://elevate-aisolutions.com/wp-content/uploads/2025/07/pinkheart.webp"
+        style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);"
+      >
+        <source src="https://elevate-aisolutions.com/wp-content/uploads/2025/07/invideo-ai-1080-EAIS_clinic.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="cta-section">
+    <h2 style="color:#2a2a2a; font-size:28px;">Ready to Upgrade Your Practice?</h2>
+    <p style="font-size:18px; color:#555;">
+      Start your healthcare automation journey today with Elevate AI Solutions.
+    </p>
+    <a href="https://elevate-create-account.amplifyapp.com/" target="_blank" class="btn-primary">
+      Create a Free Account
+    </a>
+    <p class="alt-option">
+      <a href="https://calendly.com/elevate-aisolutions/strategy" target="_blank" style="color:#28a745;">
+        Need a tailored solution? Schedule a Strategy Call
+      </a>
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Elevate AI Solutions. All rights reserved.</p>
+    <p>“A Marinia Group Company – Building Smart Cities.”</p>
+  </footer>
+</body>
+</html>

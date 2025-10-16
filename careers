@@ -1,0 +1,38 @@
+<h1>Join the Elevate AI Solutions Team</h1>
+<p>We're building the future of AI, cloud automation, and data infrastructure for healthcare, government, and business. Remote roles available. Apply below:</p>
+
+<hr />
+
+<form action="https://formspree.io/f/movwvzkg" method="POST" enctype="multipart/form-data">
+  <label for="fullName">Full Name*</label><br>
+  <input type="text" name="fullName" required><br><br>
+
+  <label for="email">Email Address*</label><br>
+  <input type="email" name="email" required><br><br>
+
+  <label for="phone">Phone Number</label><br>
+  <input type="tel" name="phone"><br><br>
+
+  <label for="role">Position Applied For*</label><br>
+  <select name="role" required>
+    <option value="">-- Select --</option>
+    <option>Cloud Solutions Engineer</option>
+    <option>Sales / Client Success</option>
+    <option>Machine Learning Engineer</option>
+    <option>Marketing / Branding</option>
+    <option>Intern (College Credit)</option>
+  </select><br><br>
+
+  <label for="why">Why do you want to work with us?</label><br>
+  <textarea name="why" rows="4"></textarea><br><br>
+
+  <label for="resume">Upload Your Resume (PDF/DOC only)</label><br>
+  <input type="file" name="attachment" accept=".pdf,.doc,.docx" required><br><br>
+
+  <label>
+    <input type="checkbox" name="terms" required>
+    I certify that all information submitted is accurate to the best of my knowledge.
+  </label><br><br>
+
+  <button type="submit">Submit Application</button>
+</form>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Elevate AI Solutions</title>
+  <meta name="description" content="Elevate AI Solutions is a values-driven AI Advisory and Workflow Orchestration firm delivering secure, scalable data engineering, cloud-native ML pipelines, and integrated GIS solutions for healthcare, government, and mission-driven businesses." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-content">
+      <h1>About Elevate AI Solutions</h1>
+      <p>We’re a values‑driven AI Advisory & Workflow Orchestration firm, delivering secure, scalable cloud‑native pipelines, machine‑learning‑ready infrastructure, and data engineering with integrated GIS for clients in healthcare, government, and mission‑driven business sectors.</p>
+    </div>
+  </header>
+
+  <section class="mission">
+    <h2>Our Purpose</h2>
+    <p>
+      At Elevate AI Solutions, we believe AI should elevate humanity.  
+      We design and orchestrate end‑to‑end workflows that automate tasks, uncover insights, and enhance decision‑making—powered by robust data engineering, zero‑trust cloud architectures, and GIS‑enabled land & safety systems—while never compromising ethics, compliance, or cultural context.
+    </p>
+  </section>
+
+  <section class="principles">
+    <h2>What We Stand For</h2>
+    <ul>
+      <li>✅ Responsible AI aligned with HIPAA, FedRAMP, and global standards</li>
+      <li>✅ Cloud‑native design for hybrid, scalable deployments</li>
+      <li>✅ Workflow orchestration for reliable, repeatable data & ML pipelines</li>
+      <li>✅ Data engineering & integrated GIS for land registry and public safety</li>
+      <li>✅ Open data strategies for global development, equity, and sustainability</li>
+      <li>✅ Hands‑on support from expert engineers—not bots</li>
+    </ul>
+  </section>
+
+  <section class="closing-cta">
+    <h2>Partner with Us</h2>
+    <p>
+      Ready to modernize your infrastructure or streamline your data strategy?  
+      Elevate AI Solutions is your partner in building AI‑powered, orchestrated systems that scale.
+    </p>
+    <a href="/create-account" class="btn-primary">
+      Create a Free Account
+    </a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Elevate AI Solutions. AI Advisory, Workflow Orchestration, & Data Engineering for Healthcare, Business, & Government.</p>
+  </footer>
+</body>
+</html>
